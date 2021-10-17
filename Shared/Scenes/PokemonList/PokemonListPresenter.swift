@@ -14,5 +14,6 @@ protocol PokemonListPresenting: AnyObject {
 class PokemonListPresenter: PokemonListPresenting {
     
     weak var viewController: PokemonListDisplayng?
+
     func setPokemons() {}
 }
